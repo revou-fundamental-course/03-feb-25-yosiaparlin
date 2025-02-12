@@ -3,9 +3,8 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #555;
-    background-image: url("4910984.gif");
     margin: 40px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 h1 {
@@ -14,7 +13,7 @@ h1 {
 }
 
 main {
-    max-width: 750px;
+    max-width: 700px;
     justify-self: center;
 
     /* Background Matter */
@@ -28,8 +27,11 @@ main {
     text-align: center;
 }
 .main-header p {
-    margin: 60px, 20px;
-    padding: 8px;
+    margin: 40%, 40%;
+    padding: 20px;
+    max-width: 790px;
+    justify-self: center;
+    color: antiquewhite
 }
 
 section {
@@ -67,6 +69,7 @@ button {
     border: none;
     padding: 8px;
     border-radius: 4px;
+    font-size: large;
 }
 
 .btn-konversi {
