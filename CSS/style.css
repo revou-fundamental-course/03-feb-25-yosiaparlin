@@ -1,0 +1,104 @@
+/* Ini file CSS */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #555;
+    background-image: url("4910984.gif");
+    margin: 40px;
+    font-size: 15px;
+}
+
+h1 {
+    color: antiquewhite;
+    font-size: 50px;
+}
+
+main {
+    max-width: 750px;
+    justify-self: center;
+
+    /* Background Matter */
+    background-color: khaki;
+    opacity: 90%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.main-header {
+    text-align: center;
+}
+.main-header p {
+    margin: 60px, 20px;
+    padding: 8px;
+}
+
+section {
+    padding: 8px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=number]:focus {
+    border: 3px solid #555;
+}
+::placeholder {
+    font-size: 13px;
+}
+
+.button-group {
+    margin-top: 16px;
+}
+
+button {
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.btn-konversi {
+    background-color: whitesmoke;
+}
+.btn-konversi:hover{
+    background-color: aquamarine;
+    color: white;
+}
+
+.btn-reset {
+    background-color: whitesmoke;
+}
+
+.btn-reset:hover{
+    background-color: lightgray;
+    color: white;
+}
+
+.btn-reverse {
+    background-color: whitesmoke;
+}
+.btn-reverse:hover{
+    background-color: lightgreen;
+    color: white;
+}
+
+.remark {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+footer {
+    text-align: center;
+}
